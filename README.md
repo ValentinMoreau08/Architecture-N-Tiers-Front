@@ -56,5 +56,10 @@ All the routes are specified in [route.js](src/routes.js)
 #### Remove unwanted paltform
 * `cordova platform remeve "platform_name"`
 
+### Documentation API
+Swagger : [Documentation](https://app.swaggerhub.com/apis-docs/ValentinMoreau08/Architecture-N-Tiers/1.0.0)
+
+Source file OpenAPI : [API-REST-Documentation.yml](API-REST-Documentation.yml)
+
 
 
