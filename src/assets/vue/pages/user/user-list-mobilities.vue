@@ -19,8 +19,8 @@
       <f7-card-content>
         <f7-list>
         <f7-list-item header="Location" :title="mobility.city + ', ' + mobility.country"></f7-list-item>
-        <f7-list-item header="Début" :title="mobility.startDate"></f7-list-item>
-        <f7-list-item header="Fin" :title="mobility.endDate"></f7-list-item>
+        <f7-list-item header="Début" :title="new Date(mobility.startDate).toLocaleDateString('fr-FR')"></f7-list-item>
+        <f7-list-item header="Fin" :title="new Date(mobility.endDate).toLocaleDateString('fr-FR')"></f7-list-item>
         </f7-list>
       </f7-card-content>
       <f7-card-footer>
@@ -71,6 +71,7 @@ export default {
       Axios.get("http://localhost:8180" + "/students/" + loggedInPersonId + "/travels")
         .then(response => {
           this.mobilities = response.data;
+
           //.sort(sortByProperty('firstname'));
           app.preloader.hide();
           //  console.log(response.data)

@@ -112,7 +112,7 @@ export default {
       var mobilityId = this.$f7route.params.id;
 
       // Get data time, projectId and date from Form object
-      var formEl = this.$$('form#create-mobility-form')[0];
+      var formEl = this.$$('form#modify-mobility-form')[0];
       var formData = new window.FormData(formEl);
 
       const options = {
