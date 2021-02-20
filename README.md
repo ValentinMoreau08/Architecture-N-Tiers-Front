@@ -1,6 +1,6 @@
 ![template logo](logo_v2.png "template logo")
 
-# Projet-Statup-POC-Front
+# Architecture-N-Tiers-Front
 
 This project uses:
 * [Framework7 5](https://framework7.io)
@@ -19,26 +19,26 @@ This project uses:
 
 
 ## Installation
-- Clone repository : `git clone https://github.com/ValentinMoreau08/Projet-Startup-POC-Front.git`
-- Navigate into template cloned folder : `cd Projet-Startup-POC-Front/template_src`
-- Use latest branch : `git checkout master`
+- Clone repository : `git clone https://github.com/ValentinMoreau08/Architecture-N-Tiers-Front.git`
+- Navigate into template cloned folder : `cd Architecture-N-Tiers-Front`
+- Use latest branch : `git checkout main`
 - Install with npm : `npm install`
 
   
 ## Start
 #### WEB
-* Inside Projet-Startup-POC-Front/template_src use command : `cordova run browser -- --live-reload`
+* Inside Architecture-N-Tiers-Front use command : `cordova run browser -- --live-reload`
 #### Mobile (Android)
 * Connect your android phone to your computer
 * Run command `adb reverse tcp:8180 tcp:8180` so that you can access your api from your localhost:8180 
-* Inside Projet-Startup-POC-Front/template_src use command : `cordova run android`
+* Inside Architecture-N-Tiers-Front use command : `cordova run android`
 * Note: You can also find the apk in the root of the project
 **Requirements:** _You are going to need JDK8 to run the android version, cordova does not support other JDK version.
 
 ## Composition
 
 #### Vue
-- You can find all vue pages in here :  [Vues](https://github.com/ValentinMoreau08/Projet-Startup-POC-Front/tree/master/template_src/src/assets/vue/pages) 
+- You can find all vue pages in here :  [Vues](src/assets/vue/pages) 
 - There are 3 folders : 
   * Admin folder
   * User folder
@@ -46,7 +46,7 @@ This project uses:
 - You can also find the vue pages that are common to some roles in the root of vue/pages folder.
 
 #### Routes
-All the routes are specified in [route.js](https://github.com/ValentinMoreau08/Projet-Startup-POC-Front/blob/master/template_src/src/routes.js)
+All the routes are specified in [route.js](src/routes.js)
 
 ## Platforms
 #### Existing platforms
