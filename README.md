@@ -42,7 +42,6 @@ This project uses:
 - There are 3 folders : 
   * Admin folder
   * User folder
-  * Manager folder
 - You can also find the vue pages that are common to some roles in the root of vue/pages folder.
 
 #### Routes
